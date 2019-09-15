@@ -148,10 +148,10 @@ nav{
     position: relative;
     left:  500px;  */
     width: 30%;
-display: block;
-margin: 0 auto;
-border: 7px solid rgb(25, 201, 255);
-border-radius: 35%;
+    display: block;
+    margin: 0 auto;
+    border: 7px solid rgb(25, 201, 255);
+    border-radius: 35%;
 }
 
 
