@@ -139,18 +139,25 @@ nav{
 
 .avatar-user {
 
-    max-width: 450px; 
+    max-width: 750px; 
     min-width: 50px;
-    max-height: 450px;
+    max-height: 750px;
     min-height: 50px;
 
-    border: 3px solid rgb(0, 219, 248); 
+    /* border: 3px solid rgb(0, 219, 248); 
     position: relative;
-    left:  500px; 
+    left:  500px;  */
+    width: 30%;
+display: block;
+margin: 0 auto;
+border: 7px solid rgb(25, 201, 255);
+border-radius: 35%;
 }
+
 
 .avatar-user img {
     width: 100%;
+    border-radius: 35%;
 }
 
 .info-user {
@@ -176,9 +183,9 @@ nav{
     
 }
 #t2 li{
-    margin-bottom: 40px;
-    margin-top: 40px;
-    margin-left: 70px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 130px;
         width: 100px;
     background: darkkhaki ;
     border: 3px solid rgb(0, 219, 248);   ;
@@ -193,9 +200,11 @@ nav{
     max-height: 450px;
     min-height: 50px;
     
-    top: 17px; 
+    /* top: 17px; 
     position: relative;
-    left:  700px; 
+    left:  700px;  */
+    display: block;
+margin: 0 auto;
 }
 
 .photo-event img {
@@ -224,4 +233,7 @@ h2{
 #t6{
     margin-bottom: 120px;
     color: rgb(178, 66, 243);
+}
+#t8{
+    padding: 15px 30px;
 }
